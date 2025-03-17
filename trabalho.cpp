@@ -1,9 +1,9 @@
 #include <stdio.h>
-int main(){
-    float celsius, fahrenheit;
+int main()
+{
+    float celsius, kelvin;
     printf("Digite o valor em Celsius: ");
     scanf("%f", &celsius);
-    fahrenheit = (celsius * 9/5) + 32;
-    printf("Valor da conversao de %.2f graus Celsius em fahrenheit: %.2f", celsius, fahrenheit);
+    kelvin = celsius + 273.15;
+    printf("\nValor da conversao de %.2f graus celsius em kelvin: %.2f", celsius, kelvin);
 }
-
